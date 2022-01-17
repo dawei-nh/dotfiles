@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=xrandr --output "$(xrandr --query | grep 'connected.*3440x1440' | grep -o 'XWAYLAND[0-9]*')" --primary
+GenericName[en_US]=
+GenericName=
+Icon=
+MimeType=
+Name[en_US]=Set Primary XWAYLAND
+Name=Set Primary XWAYLAND
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
